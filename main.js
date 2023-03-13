@@ -119,7 +119,7 @@ const container = document.querySelector('.container');
 const displayIcons = arr => {
     arr.forEach(element => {
         container.innerHTML += `<div class="box">
-            <i class="fa-solid ${element.prefix}${element.name}"></i>
+            <i class="fa-solid ${element.prefix}${element.name}" style="color:${element.color}"></i>
             <h4>${element.type}</h4>
         </div>
         
